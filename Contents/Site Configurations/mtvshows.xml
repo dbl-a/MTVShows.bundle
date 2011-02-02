@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="http://www.mtv.com/videos"
-	    plugin="http://media.mtvnservices.com/mgid:uma:videolist:mtv.com"
+	    plugin="http://media.mtvnservices.com/player/.*"
 			initialState="playing"
 			version="1.0">
 	
-<!--	<pre m="http://media.mtvnservices.com/player/.*" /> -->
-	
-	<crop x="10" y="5" width="738" height="428" />
+	<crop x="0" y="0" width="768" height="463" />
 	
 	<seekbar type="simple">
 		<start x="64" y="453" />
